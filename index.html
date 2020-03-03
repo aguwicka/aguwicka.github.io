@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pushkin Art</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Pushkin Art"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/main.css"/>
+  </head>
+  <body>
+    <!-- header-->
+    <div class="header">
+      <div class="uk-container uk-container-large">
+        <div class="header__main">
+          <div class="header__burger uk-hidden@m" uk-toggle="target: #mobileMenu"><i class="icon-burger"></i></div><a class="header__language uk-visible@m" href="#"><b>En</b>
+            <span>($)</span></a>
+          <div class="header__menu uk-visible@m">
+            <div class="header__menuTop"><a href="#">Оплата</a><a href="#">Доставка</a><a href="#">Контакты</a></div>
+            <h3 class="uk-h2"><a href="souvenirs.html">Cувениры</a></h3>
+          </div><a class="header__logo" href="/"><img src="img/logo.svg" alt=""/></a>
+          <div class="header__menu uk-visible@m">
+            <div class="header__menuTop"><a href="#" uk-toggle="target: #search">Поиск</a><a href="#" uk-toggle="target: #call">Заказать звонок</a></div>
+            <h3 class="uk-h2"><a href="art.html">Искусство</a></h3>
+          </div>
+          <div class="header__cart"><a class="uk-button uk-button-secondary uk-border-circle" href="#" uk-toggle="target: #cart"><i class="icon-cart"></i></a><small class="uk-badge uk-position-top-right">1</small></div>
+        </div>
+      </div>
+    </div>
+    <!--./ header-->
+    <!-- banners-->
+    <section class="banners">
+      <div class="uk-container uk-container-large">
+        <div class="uk-grid uk-grid-collapse uk-flex-stretch">
+          <div class="uk-width-1-2@m">
+            <div class="banner banner__grey"><img class="banner__img uk-position-bottom-right" src="img/temp/banner1.png" alt=""/>
+              <h2 class="banner__title">Сувениры</h2>
+              <ul class="banner__nav uk-visible@s">
+                <li><a href="souvenirs.html">Первая категория</a></li>
+                <li><a href="souvenirs.html">Вторая категория</a></li>
+                <li><a href="souvenirs.html">Третья категория</a></li>
+              </ul><a class="uk-button uk-button-large uk-button-primary uk-border-circle" href="souvenirs.html" type="submit">Все сувениры</a>
+            </div>
+          </div>
+          <div class="uk-width-1-2@m">
+            <div class="banner banner__black"><img class="banner__img uk-position-bottom-right" src="img/temp/banner2.png" alt=""/>
+              <h2 class="banner__title">Искусство</h2>
+              <ul class="banner__nav uk-visible@s">
+                <li><a href="art.html">Первая категория</a></li>
+                <li><a href="art.html">Вторая категория</a></li>
+                <li><a href="art.html">Третья категория</a></li>
+              </ul><a class="uk-button uk-button-large uk-button-primary uk-border-circle" href="art.html" type="submit">Все картины</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--./ banners-->
+    <!-- popular product-->
+    <section class="section uk-background-secondary uk-light uk-overflow-hidden">
+      <div class="uk-container uk-container-large">
+        <div class="section__title">
+          <h1>Популярные товары</h1>
+        </div>
+        <div class="poproduct" uk-slider="center: true">
+          <div class="uk-slider-container">
+            <ul class="uk-grid uk-grid-medium uk-slider-items">
+              <li class="poproduct__item">
+                <div class="poproduct__itemImg"><img src="img/temp/poproduct1.png" alt=""/></div>
+                <div class="poproduct__itemInfo">
+                  <div class="poproduct__itemTitle">Скульптура коня Буцефала</div>
+                  <div class="poproduct__itemCost"><span>$</span><span>328</span></div>
+                </div>
+              </li>
+              <li class="poproduct__item">
+                <div class="poproduct__itemImg"><img src="img/temp/poproduct3.png" alt=""/></div>
+                <div class="poproduct__itemInfo">
+                  <div class="poproduct__itemTitle">Скульптура коня Буцефала</div>
+                  <div class="poproduct__itemCost"><span>$</span><span>208</span></div>
+                </div>
+              </li>
+              <li class="poproduct__item">
+                <div class="poproduct__itemImg"><img src="img/temp/poproduct2.png" alt=""/></div>
+                <div class="poproduct__itemInfo">
+                  <div class="poproduct__itemTitle">Скульптура коня Буцефала</div>
+                  <div class="poproduct__itemCost"><span>$</span><span>12248</span></div>
+                </div>
+              </li>
+              <li class="poproduct__item">
+                <div class="poproduct__itemImg"><img src="img/temp/poproduct3.png" alt=""/></div>
+                <div class="poproduct__itemInfo">
+                  <div class="poproduct__itemTitle">Скульптура коня Буцефала</div>
+                  <div class="poproduct__itemCost"><span>$</span><span>3248</span></div>
+                </div>
+              </li>
+              <li class="poproduct__item">
+                <div class="poproduct__itemImg"><img src="img/temp/poproduct4.png" alt=""/></div>
+                <div class="poproduct__itemInfo">
+                  <div class="poproduct__itemTitle">Скульптура коня Буцефала</div>
+                  <div class="poproduct__itemCost"><span>$</span><span>1235</span></div>
+                </div>
+              </li>
+              <li class="poproduct__item">
+                <div class="poproduct__itemImg"><img src="img/temp/poproduct1.png" alt=""/></div>
+                <div class="poproduct__itemInfo">
+                  <div class="poproduct__itemTitle">Скульптура коня Буцефала</div>
+                  <div class="poproduct__itemCost"><span>$</span><span>328</span></div>
+                </div>
+              </li>
+              <li class="poproduct__item">
+                <div class="poproduct__itemImg"><img src="img/temp/poproduct3.png" alt=""/></div>
+                <div class="poproduct__itemInfo">
+                  <div class="poproduct__itemTitle">Скульптура коня Буцефала</div>
+                  <div class="poproduct__itemCost"><span>$</span><span>208</span></div>
+                </div>
+              </li>
+              <li class="poproduct__item">
+                <div class="poproduct__itemImg"><img src="img/temp/poproduct2.png" alt=""/></div>
+                <div class="poproduct__itemInfo">
+                  <div class="poproduct__itemTitle">Скульптура коня Буцефала</div>
+                  <div class="poproduct__itemCost"><span>$</span><span>12248</span></div>
+                </div>
+              </li>
+              <li class="poproduct__item">
+                <div class="poproduct__itemImg"><img src="img/temp/poproduct3.png" alt=""/></div>
+                <div class="poproduct__itemInfo">
+                  <div class="poproduct__itemTitle">Скульптура коня Буцефала</div>
+                  <div class="poproduct__itemCost"><span>$</span><span>3248</span></div>
+                </div>
+              </li>
+              <li class="poproduct__item">
+                <div class="poproduct__itemImg"><img src="img/temp/poproduct4.png" alt=""/></div>
+                <div class="poproduct__itemInfo">
+                  <div class="poproduct__itemTitle">Скульптура коня Буцефала</div>
+                  <div class="poproduct__itemCost"><span>$</span><span>1235</span></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="poproduct__nav"><a href="#" uk-slider-item="previous"><i class="icon-arrow-left"></i></a><a class="uk-button uk-button-default uk-border-circle" href="souvenirs.html">Каталог</a><a href="#" uk-slider-item="next"><i class="icon-arrow-right"></i></a></div>
+        </div>
+      </div>
+    </section>
+    <!--./ popular product-->
+    <!-- about us-->
+    <section class="section uk-overflow-hidden">
+      <div class="uk-container uk-container-large">
+        <div class="section__title">
+          <h1 class="section__titleDecor">О нас</h1>
+        </div>
+        <div class="uk-grid uk-flex-center">
+          <div class="uk-width-5-6">
+            <p class="intro">Welcome to the fascinating world of Russian arts and crafts! Our site was designed specially at the request of people who have previously visited our Art Gallery while on trips to Russia and who recognised the true value of our service and our wide range of products available. Pushkin Art Gallery, which opened in 2007, quickly became one of the most popular shopping places in St. Petersburg. More than 80 thousand people from 50 countries visit our Art Gallery every year.</p>
+          </div>
+        </div>
+        <div class="uk-grid uk-flex-around uk-margin-remove-top">
+          <div class="uk-width-1-1 uk-width-1-4@m">
+            <div class="achievement">
+              <div class="achievement__title"><span>500</span>тыс. гостей</div>
+              <div class="achievement__text">Welcome to the fascinating world of Russian arts and crafts! Our site was designed specially at the</div>
+            </div>
+          </div>
+          <div class="divider-vertical uk-visible@m"></div>
+          <div class="uk-width-1-1 uk-width-1-4@m">
+            <div class="achievement">
+              <div class="achievement__title"><span>13</span>лет</div>
+              <div class="achievement__text">Russian arts and crafts! Our site was designed specially at the request of people who have previously visited our</div>
+            </div>
+          </div>
+          <div class="divider-vertical uk-visible@m"></div>
+          <div class="uk-width-1-1 uk-width-1-4@m">
+            <div class="achievement">
+              <div class="achievement__title"><span>600</span>видов</div>
+              <div class="achievement__text">Our site was designed specially at the request of people who have previously visited our</div>
+            </div>
+          </div>
+          <div class="signature"><img src="img/temp/signature.svg" alt=""/></div>
+        </div>
+      </div>
+    </section>
+    <!--./ about us-->
+    <!-- invitation to gallery-->
+    <section class="section uk-background-secondary uk-light">
+      <div class="uk-container uk-container-large">
+        <div class="section__title">
+          <h1>Приглашаем в галерею</h1>
+        </div>
+        <div class="gallery" uk-slider="clsActivated: uk-transition-active">
+          <div class="uk-slider-container">
+            <ul class="uk-slider-items uk-child-width-1-1">
+              <li class="gallery__item">
+                <div class="gallery__itemImg"><img src="img/temp/gallery.png" alt=""/></div>
+                <div class="gallery__itemInfo">
+                  <div class="uk-transition-slide-fade">Our site was designed specially at the request of people who have previously visited our</div>
+                </div>
+              </li>
+              <li class="gallery__item">
+                <div class="gallery__itemImg"><img src="img/temp/gallery.png" alt=""/></div>
+                <div class="gallery__itemInfo">
+                  <div class="uk-transition-slide-fade">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nulla doloribus</div>
+                </div>
+              </li>
+              <li class="gallery__item">
+                <div class="gallery__itemImg"><img src="img/temp/gallery.png" alt=""/></div>
+                <div class="gallery__itemInfo">
+                  <div class="uk-transition-slide-fade">Fuga minima est error adipisci, porro amet debitis, totam, blanditiis</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="gallery__nav"><a href="#" uk-slider-item="previous"><i class="icon-arrow-left"></i></a><a href="#" uk-slider-item="next"><i class="icon-arrow-right"></i></a></div>
+        </div>
+      </div>
+    </section>
+    <!--./ invitation to gallery-->
+    <!-- all categories-->
+    <section class="section">
+      <div class="uk-container uk-container-large">
+        <div class="section__title">
+          <h1>Все категории</h1>
+        </div>
+        <div class="allcats">
+          <div class="uk-grid uk-child-width-1-4@l">
+            <ul uk-accordion="uk-accordion">
+              <li class="allcats__box">
+                <div class="allcats__title uk-accordion-title">
+                  <h3>Заголовок</h3><i class="icon-chevron-bottom-big uk-position-right uk-hidden@s"></i>
+                </div>
+                <ul class="uk-accordion-content uk-grid uk-grid-collapse uk-child-width-1-1@l uk-child-width-1-3@s">
+                  <li><a href="#">Christmas Decorations</a></li>
+                  <li><a href="#">Costume Dolls</a></li>
+                  <li><a href="#">Easter Eggs</a></li>
+                  <li><a href="#">Faberge Style Pendants</a></li>
+                  <li><a href="#">Hardstone Creations</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul uk-accordion="uk-accordion">
+              <li class="allcats__box">
+                <div class="allcats__title uk-accordion-title">
+                  <h3>Заголовок</h3><i class="icon-chevron-bottom-big uk-position-right uk-hidden@s"></i>
+                </div>
+                <ul class="uk-accordion-content uk-grid uk-grid-collapse uk-child-width-1-1@l uk-child-width-1-3@s">
+                  <li><a href="#">Christmas Decorations</a></li>
+                  <li><a href="#">Costume Dolls</a></li>
+                  <li><a href="#">Easter Eggs</a></li>
+                  <li><a href="#">Faberge Style Pendants</a></li>
+                  <li><a href="#">Hardstone Creations</a></li>
+                  <li><a href="#">Icons</a></li>
+                  <li><a href="#">Imperial Porcelain</a></li>
+                  <li><a href="#">Militaria</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul uk-accordion="uk-accordion">
+              <li class="allcats__box">
+                <div class="allcats__title uk-accordion-title">
+                  <h3>Заголовок</h3><i class="icon-chevron-bottom-big uk-position-right uk-hidden@s"></i>
+                </div>
+                <ul class="uk-accordion-content uk-grid uk-grid-collapse uk-child-width-1-1@l uk-child-width-1-3@s">
+                  <li><a href="#">Christmas Decorations</a></li>
+                  <li><a href="#">Costume Dolls</a></li>
+                  <li><a href="#">Easter Eggs</a></li>
+                  <li><a href="#">Faberge Style Pendants</a></li>
+                  <li><a href="#">Hardstone Creations</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul uk-accordion="uk-accordion">
+              <li class="allcats__box">
+                <div class="allcats__title uk-accordion-title">
+                  <h3>Заголовок</h3><i class="icon-chevron-bottom-big uk-position-right uk-hidden@s"></i>
+                </div>
+                <ul class="uk-accordion-content uk-grid uk-grid-collapse uk-child-width-1-1@l uk-child-width-1-3@s">
+                  <li><a href="#">Christmas Decorations</a></li>
+                  <li><a href="#">Costume Dolls</a></li>
+                  <li><a href="#">Easter Eggs</a></li>
+                  <li><a href="#">Faberge Style Pendants</a></li>
+                  <li><a href="#">Hardstone Creations</a></li>
+                  <li><a href="#">Icons</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="allcats__btn">
+            <div></div><a class="uk-button uk-button-primary uk-border-circle" href="#">Все категории</a>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--./ all categories-->
+    <!-- footer-->
+    <div class="footer">
+      <div class="footer__top">
+        <div class="uk-container uk-container-large">
+          <div class="uk-grid">
+            <div class="uk-width-1-3@s uk-width-1-4@m">
+              <ul class="footer__menu" uk-accordion="uk-accordion">
+                <li>
+                  <h4 class="uk-accordion-title">Information<i class="icon-chevron-bottom-big uk-position-right uk-hidden@s"></i></h4>
+                  <ul class="uk-accordion-content">
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Delivery info</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">How to make order</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="uk-width-1-3@s uk-width-1-4@m">
+              <ul class="footer__menu" uk-accordion="uk-accordion">
+                <li>
+                  <h4 class="uk-accordion-title">Customer service<i class="icon-chevron-bottom-big uk-position-right uk-hidden@s"></i></h4>
+                  <ul class="uk-accordion-content">
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Site map</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="uk-width-1-3@s uk-width-1-6@m">
+              <ul class="footer__menu" uk-accordion="uk-accordion">
+                <li>
+                  <h4 class="uk-accordion-title">Extras<i class="icon-chevron-bottom-big uk-position-right uk-hidden@s"></i></h4>
+                  <ul class="uk-accordion-content">
+                    <li><a href="#">Gift vouchers</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="uk-flex uk-flex-column uk-flex-bottom uk-flex-center uk-width-1-1@s uk-width-1-3@m">
+              <div class="footer__contacts"><a class="footer__phone" href="tel: +777336083727">+ 777 33 608-37-27</a>
+                <div class="footer__social"><a href="#">viber</a>,
+                  <a href="#">whatsApp</a>,
+                  <a href="#">telegram</a>
+                </div>
+              </div>
+              <div class="footer__payment"><img src="img/ideal.png" alt=""/><img src="img/visa.png" alt=""/><img src="img/mastercard.png" alt=""/><img src="img/paypal.png" alt=""/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="uk-container uk-container-large"><span>© 2019. All rights reserved.</span></div>
+      </div>
+    </div>
+    <!--./ footer-->
+    <!-- modal-->
+    <div class="uk-modal-full burgerToggle" id="mobileMenu" uk-modal="uk-modal">
+      <div class="uk-modal-dialog">
+        <div class="mobileMenu">
+          <div class="uk-container uk-container-large">
+            <div class="mobileMenu__topBlock">
+              <div><a class="uk-h2" href="#">Cувениры</a></div>
+              <div><a class="uk-h2" href="#">Искусство</a></div>
+            </div>
+            <hr/>
+            <div class="mobileMenu__block">
+              <div><a href="#" uk-toggle="target: #search">Поиск</a></div>
+              <div><a href="#" uk-toggle="target: #call">Заказать звонок</a></div>
+            </div>
+            <div class="mobileMenu__block">
+              <div><a href="#">Оплата</a></div>
+              <div><a href="#">Доставка</a></div>
+              <div><a href="#">Контакты</a></div>
+            </div>
+            <div class="mobileMenu__language"><b>En</b>
+              <span>($)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-modal-full" id="search" uk-modal="uk-modal">
+      <div class="uk-modal-dialog">
+        <div class="uk-modal-body">
+          <div class="uk-container uk-container-large">
+            <div class="uk-grid uk-flex-center">
+              <div class="uk-width-1-1">
+                <button class="uk-modal-close-default uk-close-large" type="button" uk-close="uk-close"></button>
+              </div>
+              <div class="uk-width-1-1 uk-width-3-4@s">
+                <form class="uk-search uk-width-1-1"><a class="uk-search-icon-flip" href="" uk-search-icon=""></a>
+                  <input class="uk-search-input" type="search" placeholder="ПОИСК"/>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="costrequest" uk-modal="uk-modal">
+      <div class="uk-modal-dialog uk-margin-auto-vertical uk-border-rounded">
+        <div class="uk-modal-body">
+          <button class="uk-modal-close-default uk-close-large" type="button" uk-close="uk-close"></button>
+          <div class="uk-container uk-container-large">
+            <h3 class="uk-h2 uk-text-center">Запросить стоимость</h3>
+            <form class="uk-margin-auto uk-width-3-4@m" action="#" method="POST">
+              <div class="uk-margin">
+                <input class="uk-input" name="Имя" type="text" placeholder="Имя Фамилия" required=""/>
+              </div>
+              <div class="uk-margin">
+                <input class="phone uk-input" name="Телефон" type="tel" placeholder="+375(__) ___-__-__" minlength="9" maxlength="18" required=""/>
+              </div>
+              <div class="uk-margin">
+                <input class="uk-checkbox" id="check3" type="checkbox" checked="" value="да"/>
+                <label class="uk-text-small" for="check1">
+                   Отправляя сообщение вы даете согласие на обработку
+                  
+                  <a href="#">персональных данных</a>
+                </label>
+              </div>
+              <div class="uk-margin uk-text-center">
+                <button class="uk-button uk-button-large uk-button-primary uk-border-circle" type="submit">Запросить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="call" uk-modal="uk-modal">
+      <div class="uk-modal-dialog uk-margin-auto-vertical uk-border-rounded">
+        <div class="uk-modal-body">
+          <button class="uk-modal-close-default uk-close-large" type="button" uk-close="uk-close"></button>
+          <div class="uk-container uk-container-large">
+            <h3 class="uk-h2 uk-text-center">Заказать звонок</h3>
+            <form class="uk-margin-auto uk-width-3-4@m" action="#" method="POST">
+              <div class="uk-margin">
+                <input class="uk-input" name="Имя" type="text" placeholder="Имя Фамилия" required=""/>
+              </div>
+              <div class="uk-margin">
+                <input class="uk-input" name="E-mail" type="email" placeholder="Ваш e-mail" required=""/>
+              </div>
+              <div class="uk-margin">
+                <input class="phone uk-input" name="Телефон" type="tel" placeholder="+375(__) ___-__-__" minlength="9" maxlength="18" required=""/>
+              </div>
+              <div class="uk-margin">
+                <input class="uk-checkbox" id="check1" type="checkbox" checked="" value="да"/>
+                <label class="uk-text-small" for="check1">
+                   Отправляя сообщение вы даете согласие на обработку
+                  
+                  <a href="#">персональных данных</a>
+                </label>
+              </div>
+              <div class="uk-margin uk-text-center">
+                <button class="uk-button uk-button-large uk-button-primary uk-border-circle" type="submit">Запросить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cart uk-modal" id="cart" uk-modal="uk-modal">
+      <div class="uk-modal-dialog uk-margin-auto-vertical uk-border-rounded">
+        <div class="uk-modal-body">
+          <div class="uk-container uk-container-large">
+            <form action="#">
+              <button class="uk-modal-close-default uk-close-large" type="button" uk-close="uk-close"></button>
+              <h3 class="uk-h2 uk-text-left@m uk-text-center">Корзина</h3>
+              <div uk-overflow-auto="uk-overflow-auto">
+                <div class="cart__body">
+                  <div class="cart__product">
+                    <div class="cart__productImg"><img src="img/temp/poproduct1.png" alt=""/></div>
+                    <div class="cart__productInfo">
+                      <div class="cart__productTitle">Скульптура коня Буцефала</div>
+                      <div class="cart__productText">Pavel Shevchenko, «Babylon Bull», bronze, 2010 7,65кг, 39-24-14см</div>
+                      <div class="cart__productControls">
+                        <div class="plusminus cart__productCount">
+                          <button class="minus uk-button" type="button"><i class="icon-minus"></i></button>
+                          <input type="text" size="2" value="1" disabled="disabled"/>
+                          <button class="plus uk-button" type="button"><i class="icon-plus"></i></button>
+                        </div><a class="cart__productBtn" href="#">Remove</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart__product">
+                    <div class="cart__productImg"><img src="img/temp/poproduct2.png" alt=""/></div>
+                    <div class="cart__productInfo">
+                      <div class="cart__productTitle">Скульптура коня Буцефала</div>
+                      <div class="cart__productText">Pavel Shevchenko, «Babylon Bull», bronze, 2010 7,65кг, 39-24-14см</div>
+                      <div class="cart__productControls">
+                        <div class="plusminus cart__productCount">
+                          <button class="minus uk-button" type="button"><i class="icon-minus"></i></button>
+                          <input type="text" size="2" value="1" disabled="disabled"/>
+                          <button class="plus uk-button" type="button"><i class="icon-plus"></i></button>
+                        </div><a class="cart__productBtn" href="#">Remove</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart__product">
+                    <div class="cart__productImg"><img src="img/temp/poproduct3.png" alt=""/></div>
+                    <div class="cart__productInfo">
+                      <div class="cart__productTitle">Скульптура коня Буцефала</div>
+                      <div class="cart__productText">Pavel Shevchenko, «Babylon Bull», bronze, 2010 7,65кг, 39-24-14см</div>
+                      <div class="cart__productControls">
+                        <div class="plusminus cart__productCount">
+                          <button class="minus uk-button" type="button"><i class="icon-minus"></i></button>
+                          <input type="text" size="2" value="1" disabled="disabled"/>
+                          <button class="plus uk-button" type="button"><i class="icon-plus"></i></button>
+                        </div><a class="cart__productBtn" href="#">Remove</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart__product">
+                    <div class="cart__productImg"><img src="img/temp/poproduct4.png" alt=""/></div>
+                    <div class="cart__productInfo">
+                      <div class="cart__productTitle">Скульптура коня Буцефала</div>
+                      <div class="cart__productText">Pavel Shevchenko, «Babylon Bull», bronze, 2010 7,65кг, 39-24-14см</div>
+                      <div class="cart__productControls">
+                        <div class="plusminus cart__productCount">
+                          <button class="minus uk-button" type="button"><i class="icon-minus"></i></button>
+                          <input type="text" size="2" value="1" disabled="disabled"/>
+                          <button class="plus uk-button" type="button"><i class="icon-plus"></i></button>
+                        </div><a class="cart__productBtn" href="#">Remove</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cart__footer">
+                <div class="cart__footerInfo"><b>Всего:</b>
+                  <div class="cart__footerCost"><span>$</span><span>3248</span></div>
+                </div>
+                <button class="uk-button uk-button-secondary" type="submit">Checkout</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--./ modal-->
+    <!--scripts-->
+    <script src="js/uikit.min.js"></script>
+    <script src="js/imask.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <!--./ scripts-->
+  </body>
+</html>
